@@ -9,6 +9,7 @@ This repository is based on the following tutorial:
 
 # Prerequisites
 - AWS Account
+- AWS CLI installed 
 - Terraform installed
 - rbenv installed
 - Ruby installed
@@ -53,3 +54,27 @@ rbenv local 2.3.1
 - Generate SSH Key
 - Create Test Fixture Terraform Configuration
 - Create Test Kitchen Configuration script
+
+
+### How to use this repository
+
+- Clone the repository to your local machine
+
+```
+git clone https://github.com/firedot/kitchen_test-ec2_extensive_0.2.git
+```
+- Go into the cloned repo directory 
+
+```
+kitchen_test-ec2_extensive_0.2
+```
+- Configure your AWS Credentials according to these instructions: 
+
+[Configuring the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-quick-configuration)
+
+- Run the following command to test the terraform module
+
+```
+./run-test.sh
+```
+
