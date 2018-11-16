@@ -16,7 +16,6 @@ This repository is based on the following tutorial:
 
 ## TO-DO
 
-- Generate SSH Key
 - Create Test Fixture Terraform Configuration
 - Create Test Kitchen Configuration
 
@@ -24,3 +23,4 @@ This repository is based on the following tutorial:
 
 - Configure AWS
 - Create InSpec Profile
+- Generate SSH Key
