@@ -16,10 +16,11 @@ This repository is based on the following tutorial:
 
 ## TO-DO
 
-- Configure AWS
 - Create InSpec Profile
 - Generate SSH Key
 - Create Test Fixture Terraform Configuration
 - Create Test Kitchen Configuration
 
 ## DONE
+
+- Configure AWS
