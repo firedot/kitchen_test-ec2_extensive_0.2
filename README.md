@@ -78,3 +78,13 @@ kitchen_test-ec2_extensive_0.2
 ./run-test.sh
 ```
 
+
+# Below you could see some output from the testing process
+
+- Successful check for OS version (CentOS)
+
+![Alt text](pics/centos_success.png?raw=true "CentOS Success")
+
+- Successful check for OS version (Ubuntu)
+
+![Alt text](pics/ubuntu_success.png?raw=true "Ubuntu Success")
