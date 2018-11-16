@@ -11,8 +11,38 @@ This repository is based on the following tutorial:
 - AWS Account
 - Terraform installed
 - rbenv installed
-- Ruby 2.3.1 available
+- Ruby installed
 - bundle installed
+
+**NOTE:** **The following steps are for MacOS users** **:NOTE**
+
+ * Install and fine tune rbenv by running the following commands
+   
+```
+which rbenv || brew install rbenv
+
+grep ".rbenv" ~/.bash_profile || {
+  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' | tee -a ~/.bash_profile
+}
+
+source ~/.bash_profile
+
+rbenv init
+```
+ * Install ruby version 2.3.1 with rbenv by running the following commands
+
+```
+rbenv versions | grep 2.3.1 || rbenv install 2.3.1
+
+rbenv local 2.3.1
+
+```
+
+ * Install bundler
+ 
+ ```
+ gem install bundler
+ ```
 
 ## TO-DO
 
